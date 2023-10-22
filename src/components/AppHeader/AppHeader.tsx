@@ -1,5 +1,5 @@
-import { MoonIcon, SunIcon } from "@chakra-ui/icons"
-import { Button, Heading, Text, Tooltip, useColorMode } from "@chakra-ui/react"
+import { MoonIcon, SunIcon } from "@chakra-ui/icons";
+import { Heading, Text, Tooltip, useColorMode } from "@chakra-ui/react";
 
 function AppHeader() {
     const { colorMode, toggleColorMode } = useColorMode()
