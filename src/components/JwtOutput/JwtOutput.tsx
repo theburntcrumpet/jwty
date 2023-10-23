@@ -2,7 +2,7 @@ import { Heading, Textarea } from "@chakra-ui/react"
 
 interface Props {
     title:string,
-    content:string
+    content:string|undefined
 }
 
 function JwtOutput(props:Props) {

@@ -14,7 +14,7 @@ function JwtInput(props:Props) {
     return (
     <>
         <Heading size={"md"}>Encoded Token</Heading>
-        <Textarea placeholder='Enter encoded JWT Here.' width="100%" height="100%" value={props.jwtInput} onChange={handleInputChange}/>
+        <Textarea placeholder='Enter encoded JWT Here.' width="100%" height="98%" value={props.jwtInput} onChange={handleInputChange} resize="none"/>
     </>
     )
 }
